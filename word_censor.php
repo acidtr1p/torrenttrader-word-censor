@@ -1,3 +1,23 @@
+<?php
+//
+//  TorrentTrader v2.x
+//	$LastChangedDate: 2012-08-18 19:52:54 +0100 (Sat, 18 Aug 2012) $
+//      $LastChangedBy: arcticwolf44 $
+//	
+//	http://www.torrenttrader.org
+//
+//
+
+// VERY BASIC ADMINCP
+
+require_once("backend/functions.php");
+require_once("backend/bbcode.php");
+dbconn();
+loggedinonly();
+
+$action = $_REQUEST["action"];
+$do = $_REQUEST["do"];
+
 #======================================================================#
 # Word Censor Filter
 #======================================================================#
