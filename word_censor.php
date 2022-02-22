@@ -18,10 +18,6 @@ loggedinonly();
 function navmenu(){
 global $site_config;
 
-function print_body($html) {
-$html = print();
-return $html;
-}
 print('<td align="center"><a href="admincp.php?action=censor"><img src="images/admin/word_censor.png" border="0" width="32" height="32" alt="" /><br /><?php echo T_("WORD_CENSOR"); ?></a><br /></td>';
 }
 
